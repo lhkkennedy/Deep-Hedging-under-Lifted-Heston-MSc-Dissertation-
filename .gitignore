@@ -1,0 +1,19 @@
+# Large raw data files kept locally
+CRSP S&P 2010 - 2024.csv
+OptionMetrics ATM IV 2010 - 2025.csv
+*.parquet
+
+# Generated outputs
+project/lifted_heston_calibration_outputs/
+lifted_heston_calibration_outputs/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+env/
+.env
