@@ -17,3 +17,7 @@ __pycache__/
 venv/
 env/
 .env
+
+outputs_final
+outputs_final.zip
+cache_final

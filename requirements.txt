@@ -1,0 +1,24 @@
+# Part A calibration notebook core dependencies
+# Python 3.10+ recommended.
+#
+# This file deliberately excludes PyTorch.
+# For RTX 5070 / sm_120 CUDA support, install PyTorch separately using
+# requirements-gpu-cu128.txt after this base environment works.
+
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.13,<2
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+joblib>=1.4,<2
+
+# Data IO
+pyarrow>=15,<23
+openpyxl>=3.1,<4
+
+# Notebook environment
+jupyterlab>=4.2,<5
+notebook>=7.2,<8
+ipykernel>=6.29,<7
+ipywidgets>=8.1,<9
+nbformat>=5.10,<6
